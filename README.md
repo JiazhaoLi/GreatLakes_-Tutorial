@@ -11,7 +11,7 @@ This is instruction on how to use GPU in greatlakes
 
 ## Virtual Environment:
 
-Great Lakes hasn't yet install deep learning framework like PyTorch or Tensorflow. If you would like to use them or install some external package like pytorch-pretrained-bert. You need to set one virtual environment to get permission to install them under your own folder.
+Great Lakes hasn't yet installed deep learning framework like PyTorch or Tensorflow. If you would like to use them or install some external package like pytorch-pretrained-bert or tqdm. You need to set one virtual environment to get permission to install them under your own folder.
 
 Create the virtual env
 `virtualenv -p python3 your_env_name` 
