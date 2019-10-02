@@ -19,6 +19,9 @@ Create the virtual env
 Activate your virtual env
 `source your_env_name/bin/activate`
 
+Deactivate current virtual env
+`deavtivate your_env_name`
+
 Then you will get full permission of your folder to git clone repository or install what ever framework you want directly.
 
 ## Bash Script:
