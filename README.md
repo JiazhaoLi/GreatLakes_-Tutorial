@@ -81,3 +81,8 @@ For this bashfile, they are all in same level.
 
 More in Cheat sheet
 
+## GUI on Mac
+
+I recommand Cyberduck for document management uploading, downloading,etc.
+When setting connections, use `FTP` protocal , server name `greatlakes.arc-ts.umich.edu` , your unique name and password.
+
