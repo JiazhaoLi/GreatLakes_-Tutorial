@@ -48,7 +48,9 @@ Here is one example to use GPU.
 
 source ./your_env_name/bin/activate
 
-python  your_code.py
+python  your_code1.py
+python  your_code2.py
+python  your_code3.py
 ```
 
 Some instructions:
@@ -84,5 +86,6 @@ More in Cheat sheet
 ## Document Management GUI on Mac
 
 I recommand `Cyberduck` for document management uploading, downloading,etc.
+
 When setting connections, use `FTP` protocal , server name `greatlakes.arc-ts.umich.edu` , `your unique name` and `password`.
 
