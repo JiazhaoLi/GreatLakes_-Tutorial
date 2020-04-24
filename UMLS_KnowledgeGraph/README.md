@@ -22,8 +22,11 @@ The Three UMLS Knowledge Sources
        
 ### [Related Concepts](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.9)  File = MRREL.RRF
 
-  [the abbrevation list concludes](https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/release/abbreviations.html) 
-  all **concepts relationships** in two tables: **REL (10 types) and RELA (577 types)**
+  [the abbrevation list](https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/release/abbreviations.html) 
+  concludes all **CONCEPTS Relation** in two tables: 
+   * REL (10 types)
+   * RELA (577 types)
+   * CUI Concepts 3,338,414
             
             some main cols.
             CUI1	Unique identifier of first concept        **3,338,414**
