@@ -3,9 +3,9 @@ This is instruction on how to make use of UMLS to generate the knowledge graph d
 
 
 The Three UMLS Knowledge Sources
-[Metathesaurus](https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/index.html): Terms and codes from many vocabularies, including CPT, ICD-10-CM, LOINC, MeSH, RxNorm, and SNOMED CT. Hierarchies, definitions, and other relationships and attributes.
-[Semantic Network](https://semanticnetwork.nlm.nih.gov/): Broad categories (semantic types) and their relationships (semantic relations).
-[SPECIALIST Lexicon and Lexical Tools](https://lexsrv3.nlm.nih.gov/Specialist/Home/index.html): A large syntactic lexicon of biomedical and general English and tools for normalizing strings, generating lexical variants, and creating indexes.
+* [Metathesaurus](https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/index.html): Terms and codes from many vocabularies, including CPT, ICD-10-CM, LOINC, MeSH, RxNorm, and SNOMED CT. Hierarchies, definitions, and other relationships and attributes.
+* [Semantic Network](https://semanticnetwork.nlm.nih.gov/): Broad categories (semantic types) and their relationships (semantic relations).
+* [SPECIALIST Lexicon and Lexical Tools](https://lexsrv3.nlm.nih.gov/Specialist/Home/index.html): A large syntactic lexicon of biomedical and general English and tools for normalizing strings, generating lexical variants, and creating indexes.
 
 
 ## Install:
@@ -18,9 +18,9 @@ The Three UMLS Knowledge Sources
 
 
 
-### [Concepts Names and Sources](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)  File = MRCONSO.RRF
+### 1. [Concepts Names and Sources](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)  File = MRCONSO.RRF
        
-### [Related Concepts](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.9)  File = MRREL.RRF
+### 2. [Related Concepts](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.9)  File = MRREL.RRF
 
   [the abbrevation list](https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/release/abbreviations.html) 
   concludes all **CONCEPTS Relation** in two tables: 
@@ -50,10 +50,10 @@ The Three UMLS Knowledge Sources
                         isa	                                   Is a
                         is_normal_cell_origin_of_disease	is normal cell origin of disease
                      
-### [Semantic Types](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.7)   
+### 3. [Semantic Types](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.7)   
    STY: total **127 Semantic Types**
             
-### [Semantic Network](https://www.ncbi.nlm.nih.gov/books/NBK9679/)
+### 4. [Semantic Network](https://www.ncbi.nlm.nih.gov/books/NBK9679/)
        
    In SRSRTR.RRF: there are **49 types of sematics RL**
  
