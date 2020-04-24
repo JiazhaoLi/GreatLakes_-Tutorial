@@ -15,7 +15,7 @@ The Three UMLS Knowledge Sources
 ## Dataset:
 
 [Data set description](https://www.ncbi.nlm.nih.gov/books/NBK9685/)
-
+RRF file can be read by line and set sep='|'. 
 
 
 ### 1. [Concepts Names and Sources](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)  File = MRCONSO.RRF
