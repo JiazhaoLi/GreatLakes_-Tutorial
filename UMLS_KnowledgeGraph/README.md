@@ -57,7 +57,8 @@ RRF file can be read by line and set sep='|'.
        
    * In SRSTR.RRF: there are **49 types of sematics RL**  and **182 semantic Typs**
    
-       SRDEF.RRF: Basic information about the Semantic Types and Relations.
+        SRDEF.RRF: Basic information about the Semantic Types and Relations.
+        
               Field	Description
               RT:	Record Type (STY = Semantic Type or RL = Relation). 
               UI:	Unique Identifier of the Semantic Type or Relation.
@@ -71,6 +72,7 @@ RRF file can be read by line and set sep='|'.
               RIN:	Inverse of the Relation (RL records only).
  
        SRSTR.RRF: Structure of the Network. 
+       
             Field	Description
             STY/RL:	Argument 1 (Name of a Semantic Type or Relation).      
             RL:	Relation ("isa" or the name of a non-hierarchical Relation). 
