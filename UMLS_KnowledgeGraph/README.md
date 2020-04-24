@@ -50,10 +50,10 @@ The Three UMLS Knowledge Sources
                         isa	                                   Is a
                         is_normal_cell_origin_of_disease	is normal cell origin of disease
                      
-### 3. [Semantic Types](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.7)   
+### 3. [Semantic Types](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.7) （File = MRSTY.RRF）  
    STY: total **127 Semantic Types**
             
-### 4. [Semantic Network](https://www.ncbi.nlm.nih.gov/books/NBK9679/)
+### 4. [Semantic Network](https://www.ncbi.nlm.nih.gov/books/NBK9679/) （File = SRDEF.RRF or SRSTR.RRF）
        
    In SRSRTR.RRF: there are **49 types of sematics RL**
  
