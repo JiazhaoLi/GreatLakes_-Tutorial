@@ -1,34 +1,55 @@
-# Great Lakes Tutorial
-This is instruction on how to use GPU in greatlakes
+# UMLS Knowledge Sources Tutorial
+This is instruction on how to make use of UMLS to generate the knowledge graph dataset. 
 
 
-[Great Lakes User Guide](https://arc-ts.umich.edu/greatlakes/user-guide/)
+The Three UMLS Knowledge Sources
+[Metathesaurus](https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/index.html): Terms and codes from many vocabularies, including CPT, ICD-10-CM, LOINC, MeSH, RxNorm, and SNOMED CT. Hierarchies, definitions, and other relationships and attributes.
+[Semantic Network](https://semanticnetwork.nlm.nih.gov/): Broad categories (semantic types) and their relationships (semantic relations).
+[SPECIALIST Lexicon and Lexical Tools](https://lexsrv3.nlm.nih.gov/Specialist/Home/index.html): A large syntactic lexicon of biomedical and general English and tools for normalizing strings, generating lexical variants, and creating indexes.
 
 
+## Install:
 
-[Cheat Sheet](https://docs.google.com/document/d/1wsr3yzkkojUMBCCneCz-l413xBzU-SZFAqcFrAAjttk/export?format=pdf)
+[Install software guide](https://www.nlm.nih.gov/research/umls/implementation_resources/metamorphosys/help.html)
+
+## Dataset:
+
+[data set description](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)
+Some examples:
 
 
-## Virtual Environment:
+[Concepts Names and Sources](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)\
 
-Great Lakes hasn't yet installed deep learning framework like PyTorch or Tensorflow. If you would like to use them or install some external package like pytorch-pretrained-bert or tqdm. You need to set one virtual environment to get permission to install them under your own folder.
+[Semantic Network](https://www.ncbi.nlm.nih.gov/books/NBK9679/)
+      [Basic information about the Semantic Types and Relations.] : 
+       
+       SRDEF:
+            SRDEF:Basic information about the Semantic Types and Relations.
 
-Create the virtual env
-`virtualenv -p python3 your_env_name` 
+              Field	Description
+              RT:	Record Type (STY = Semantic Type or RL = Relation).
+              UI:	Unique Identifier of the Semantic Type or Relation.
+              STY/RL:	Name of the Semantic Type or Relation.
+              STN/RTN:	Tree Number of the Semantic Type or Relation.
+              DEF:	Definition of the Semantic Type or Relation.
+              EX:	Examples of Metathesaurus concepts with this Semantic Type (STY records only).
+              UN:	Usage note for Semantic Type assignment (STY records only).
+              NH:	The Semantic Type and its descendants allow the non-human flag (STY records only).
+              ABR:	Abbreviation of the Relation Name or Semantic Type.
+              RIN:	Inverse of the Relation (RL records only).
+ 
+       SRSTR: Structure of the Network.
+            Field	Description
+            STY/RL:	Argument 1 (Name of a Semantic Type or Relation).
+            RL:	Relation ("isa" or the name of a non-hierarchical Relation).
+            STY/RL:	Argument 2 (Name of a Semantic Type or Relation); if this field is blank this means that the Semantic     Type or Relation is one of the top nodes of the Network.
+            LS:	Link Status (D = Defined for the Arguments and its children; B = Blocked; DNI = Defined but Not Inherited by the children of the Arguments).
+            N.B.: The relations expressed in this table are binary relations and the arguments are ordered pairs. The relations are stated only for the top-most node of the "isa" hierarchy of the Semantic Types to which they may apply.
+[Semantic Types](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.7)
+  
+[Semantic Relationship ](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)
 
-Activate your virtual env
-`source your_env_name/bin/activate`
 
-Deactivate current virtual env
-`deactivate your_env_name`
-
-Then you will get full permission of your folder to git clone repository or install what ever framework you want directly.
-
-## Bash Script:
-
-All tasks run in GreatLakes should be submitted in form of Bash Script similar to the command in terminal. You can refer the Cheat Sheet of Great Lakes to settle your commands.
-
-Here is one example to use GPU. 
 
 ```
 #!/bin/sh
