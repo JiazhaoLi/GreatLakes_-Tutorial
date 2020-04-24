@@ -24,9 +24,9 @@ The Three UMLS Knowledge Sources
 
   [the abbrevation list](https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/release/abbreviations.html) 
   concludes all **CONCEPTS Relation** in two tables: 
-   * REL (10 types)
-   * RELA (577 types)
-   * CUI Concepts 3,338,414
+   * REL: 10 types
+   * RELA: 577 types
+   * CUI Concepts: 3,338,414
             
             some main cols.
             CUI1	Unique identifier of first concept        **3,338,414**
@@ -55,8 +55,8 @@ The Three UMLS Knowledge Sources
             
 ### 4. [Semantic Network](https://www.ncbi.nlm.nih.gov/books/NBK9679/) （File = SRDEF.RRF or SRSTR.RRF）
        
-   In SRSRTR.RRF: there are **49 types of sematics RL**
- 
+   * In SRSTR.RRF: there are **49 types of sematics RL**  and **182 semantic Typs**
+   
        SRDEF.RRF: Basic information about the Semantic Types and Relations.
               Field	Description
               RT:	Record Type (STY = Semantic Type or RL = Relation). 
