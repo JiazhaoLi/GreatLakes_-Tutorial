@@ -8,21 +8,21 @@ The Three UMLS Knowledge Sources
 * [SPECIALIST Lexicon and Lexical Tools](https://lexsrv3.nlm.nih.gov/Specialist/Home/index.html): A large syntactic lexicon of biomedical and general English and tools for normalizing strings, generating lexical variants, and creating indexes.
 
 
-## Install:
+## UMLS Install:
 
 [Install software guide](https://www.nlm.nih.gov/research/umls/implementation_resources/metamorphosys/help.html)
 
-after Install UMSL, you can generate dataset and find them in folder
+    after Install UMSL, you can generate dataset and find them in folder
 ```
-    <UMLS_DIR>/
-        META/
-            MRCONSO.RRF
-            MRSTY.RRF
-        NET/
-            SRSTRE1.RRF
-            SRSTR.RRF
-    ```
-## Dataset:
+<UMLS_DIR>/
+    META/
+        MRCONSO.RRF
+        MRSTY.RRF
+    NET/
+        SRSTRE1
+```
+    
+ ## Dataset:
 
 [Data set description](https://www.ncbi.nlm.nih.gov/books/NBK9685/)
 RRF file can be read by line and set sep='|'. 
