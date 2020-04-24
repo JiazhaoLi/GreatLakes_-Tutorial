@@ -15,19 +15,42 @@ The Three UMLS Knowledge Sources
 ## Dataset:
 
 [data set description](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)
-Some examples:
 
 
-[Concepts Names and Sources](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)\
 
-[Semantic Network](https://www.ncbi.nlm.nih.gov/books/NBK9679/)
-      [Basic information about the Semantic Types and Relations.] : 
+### [Concepts Names and Sources](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)  File = MRCONSO.RRF
        
-       SRDEF:
-            SRDEF:Basic information about the Semantic Types and Relations.
+### [Related Concepts](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.9)  (File = MRREL.RRF)
 
+  [the abbrevation list concludes](https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/release/abbreviations.html) all relationship in two table: REL and RELA 
+            
+            some main cols.
+            CUI1	Unique identifier of first concept        **3,338,414**
+            AUI1	Unique identifier of first atom
+            STYPE1	The name of the column in MRCONSO.RRF that contains the identifier used for the first element in the relationship, i.e. AUI, CODE, CUI, SCUI, SDUI.
+            REL	Relationship of second concept or atom to first concept or atom  
+            10 types, find REL list in abbreviations table link before** 
+            CUI2	Unique identifier of second concept
+            AUI2	Unique identifier of second atom
+            STYPE2	The name of the column in MRCONSO.RRF that contains the identifier used for the second element in the relationship, i.e. AUI, CODE, CUI, SCUI, SDUI.
+            RELA Additional (more specific) relationship label (optional)         
+                  577 types, find RELA in abbreviations table link before
+            
+            some examples
+                  REL: 
+                        AQ	Allowed qualifier
+                        CHD	has child relationship in a Metathesaurus source vocabulary
+                        DEL	Deleted concept
+                        PAR	has parent relationship in a Metathesaurus source vocabulary
+                  RELA: (the paper manually select one list of rela from 577)
+                        isa	Is a
+                        is_normal_cell_origin_of_disease	is normal cell origin of disease
+            
+### [Semantic Network](https://www.ncbi.nlm.nih.gov/books/NBK9679/)(relationship)
+ 
+       SRDEF.RRF: Basic information about the Semantic Types and Relations.
               Field	Description
-              RT:	Record Type (STY = Semantic Type or RL = Relation).
+              RT:	Record Type (STY = Semantic Type or RL = Relation). 
               UI:	Unique Identifier of the Semantic Type or Relation.
               STY/RL:	Name of the Semantic Type or Relation.
               STN/RTN:	Tree Number of the Semantic Type or Relation.
@@ -38,16 +61,18 @@ Some examples:
               ABR:	Abbreviation of the Relation Name or Semantic Type.
               RIN:	Inverse of the Relation (RL records only).
  
-       SRSTR: Structure of the Network.
+       SRSTR.RRF: Structure of the Network. 
             Field	Description
-            STY/RL:	Argument 1 (Name of a Semantic Type or Relation).
-            RL:	Relation ("isa" or the name of a non-hierarchical Relation).
+            STY/RL:	Argument 1 (Name of a Semantic Type or Relation).      **182**
+            RL:	Relation ("isa" or the name of a non-hierarchical Relation). **49**
             STY/RL:	Argument 2 (Name of a Semantic Type or Relation); if this field is blank this means that the Semantic     Type or Relation is one of the top nodes of the Network.
             LS:	Link Status (D = Defined for the Arguments and its children; B = Blocked; DNI = Defined but Not Inherited by the children of the Arguments).
             N.B.: The relations expressed in this table are binary relations and the arguments are ordered pairs. The relations are stated only for the top-most node of the "isa" hierarchy of the Semantic Types to which they may apply.
-[Semantic Types](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.7)
+            
+            
+### [Semantic Types](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.7)   STY: total 127 types
   
-[Semantic Relationship ](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)
+### [Semantic Relationship ](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)
 
 
 
