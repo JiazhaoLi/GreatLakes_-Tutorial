@@ -12,7 +12,7 @@ The Three UMLS Knowledge Sources
 
 [Install software guide](https://www.nlm.nih.gov/research/umls/implementation_resources/metamorphosys/help.html)
 
-    after Install UMSL, you can generate dataset and find them in folder
+After Install UMSL, you can generate dataset and find them in you local folder
 ```
 <UMLS_DIR>/
     META/
