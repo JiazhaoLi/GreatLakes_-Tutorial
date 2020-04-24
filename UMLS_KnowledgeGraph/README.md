@@ -14,7 +14,7 @@ The Three UMLS Knowledge Sources
 
 ## Dataset:
 
-[data set description](https://www.ncbi.nlm.nih.gov/books/NBK9685/#ch03.sec3.3.4)
+[Data set description](https://www.ncbi.nlm.nih.gov/books/NBK9685/)
 
 
 
